@@ -1,0 +1,46 @@
+.child-accomo {
+  margin: 5vh 1vh 3vh 1vh;
+  display: flex;
+  flex: 1;
+  padding: 2%;
+}
+
+.parent-accomo {
+  display: flex;
+  flex-direction: row;
+}
+
+#fac-images {
+  height: 90vh !important;
+  width: 110vh !important;
+}
+
+.parent-accomo .carousel-container {
+  flex: 1; /* Make the carousel container take up 50% of the parent */
+}
+
+#coro-acco {
+  height: 90vh !important;
+  width: 100vh !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .parent-accomo {
+    display: flex;
+    flex-direction: column;
+  }
+  #coro-acco {
+    height: 30vh !important;
+    width: 40vh !important;
+  }
+  #fac-images {
+    height: 30vh !important;
+    width: 40vh !important;
+  }
+  .child-accomo {
+    margin: 1%;
+    display: flex;
+    flex: 1;
+    padding: 2%;
+  }
+}

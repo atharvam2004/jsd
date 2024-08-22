@@ -1,0 +1,143 @@
+.footer {
+  margin-top: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 3px;
+  width: 100%;
+  background-color: #1f1b13;
+  color: rgb(255, 255, 255);
+  font-family: "Lora", serif;
+  text-align: center;
+}
+#address {
+  width: 20%;
+  text-align: left;
+  display: inline-block;
+}
+.mob-no{
+  margin-bottom: 0.5rem;
+}
+#footer-item {
+  color: #debe64;
+  text-decoration: none;
+  padding: 3px;
+  margin: 1%;
+  transition: color 0.8s ease;
+
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+#footer-item:hover {
+  color: #c88900;
+}
+#footerSep {
+  margin: 1%;
+  width: 96%;
+  text-align: left;
+}
+.footer-div5 {
+  background-color: #645429;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex:3;
+}
+#address {
+  display: flex;
+  position: relative;
+  float: right;
+  width: 15%;
+  margin-left: auto;
+  text-align: end;
+  justify-content: flex-end;
+}
+#footer-item {
+  color: rgb(152, 144, 130);
+  text-decoration: none;
+  margin: 0 2% 0.2% 0;
+  font-family: "Lora", serif;
+  position: relative;
+  display: inline-block;
+  height: 2rem !important;
+}
+body {
+  font: 400 16px/23px "Lora", Arial, helvetica, sans-serif;
+  min-width: 320px;
+  color: #7e7e7e;
+}
+#footer-item:hover {
+  color: #cb9521;
+}
+#footerSep {
+  margin: 1%;
+  width: 92%;
+  text-align: left;
+  padding: 0 5%;
+  justify-content: space-around;
+}
+
+#social {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: #363433;
+}
+#copyright {
+  padding: 2px;
+}
+#footer-contactus {
+  text-decoration: none;
+  color: white;
+}
+.copyright-footer {
+  margin-top: 2%;
+}
+#footer-contactus:hover {
+  color: #363433;
+}
+#footer-span {
+  display: block;
+}
+.footer-content {
+  margin: 7% 10% 0 5%;
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-device-width: 992px) {
+  .footer {
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+  }
+  #footerSep {
+    display: flex;
+    text-align: center;
+
+    max-width: 100%;
+    position: relative;
+    flex-direction: column;
+  }
+  .footer-div5 {
+    display: flex;
+    flex-direction: column;
+  }
+  #address {
+    margin: 5% 0;
+    width: 80%;
+  }
+}
+.copyright-footer {
+  text-align: center;
+}
+#contact-icon {
+  color: rgb(255, 255, 255);
+  margin: 8% 2%;
+}
+
+#contact-icon:hover {
+  color: rgb(180, 135, 0);
+}
+.contact-links2 {
+  width: 55%;
+}

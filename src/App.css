@@ -1,0 +1,42 @@
+ body  {
+  object-fit: cover;
+   max-width: 100%;
+      font-family: 'Lora', serif;
+background-image: url("../src/assets/background.png");
+overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5,h6, p, span {
+    font-family: 'Lora', serif;
+}
+
+html{
+  scroll-behavior: smooth;
+
+}
+@media only screen and (max-device-width: 992px) {
+  html{
+    overflow-x: hidden;
+  }
+}
+h1 {
+  text-align: center;
+  position: relative;
+}
+h1::before {
+  content: "";
+  display: block;
+  background-image: url("./assets/heading-design-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 12rem; /* Adjust the width and height to fit your image */
+  height: 50px;
+  margin: 0 auto 0;
+  background-size: 25rem 20rem;
+}
+#gallery{
+  margin: 2rem!important;
+}
+.boot-row{
+  margin:0!important;
+}

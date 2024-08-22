@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+  margin: 0 12rem;
+}
+
+.dashed-box {
+  position: relative;
+  z-index: 1;
+  height: 30em;
+  width: 50%;
+  margin-bottom: 10em;
+  margin-top: 2em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gold-box {
+  position: absolute;
+  z-index: 3;
+  /* put .gold-box above .green-box and .dashed-box */
+  background: #363433;
+  width: 60%;
+  left: 20rem;
+  bottom: -10em;
+  margin-bottom: 1em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #debe64;
+}
+
+
+.nearby-col{
+    margin: 3% 16%;
+    text-align: center;
+    color: #363433;
+    font-weight: 600;
+}
+
+#menuimg{
+  height: 52rem;
+}
+.special-div{
+  text-align: "center";
+  margin: 3rem 8rem ;
+}
+@media only screen and (max-device-width: 992px) {
+  .special-div{
+    text-align: "center";
+    margin: 1rem 3rem ;
+  }
+}

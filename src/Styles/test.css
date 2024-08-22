@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap");
+.stats {
+  height: 30%;
+  background-color: #363433;
+}
+.reviewsContainer{
+  background-image: url("../src/assets/background2.svg");
+  padding: 10%;
+  object-fit: cover;
+}
+.reviews {
+  background-color: #363433;
+  color: aliceblue;
+  width: 25rem;
+  padding: 2%;
+  font-style: italic;
+  font-family: "Lora", serif;
+  border-radius: 5px;
+  border: #ffd664 solid 1px;
+  display: inline-block;
+  text-align: justify;
+  margin: 1% 1%;
+}
+h5 {
+  color: #debe64;
+  font-family: "Lora", serif;
+}
+.reviewsContainer {
+  display: flex;
+  font-family: "Lora", serif;
+  justify-content: center;
+  flex-direction: row;
+}
+@media only screen and (max-device-width: 992px) {
+  .reviewsContainer {
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center;
+  }
+  .reviews {
+    width: 20rem;
+
+    margin: 3% auto;
+    height: 26rem;
+    padding: 5%;
+    min-height: -moz-fit-content;
+    min-height: fit-content !important;
+  }
+}
+.test-haed{
+  margin: 2% 4%;
+}
+.reviewPara {
+  padding: 5%;
+}

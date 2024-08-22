@@ -1,0 +1,56 @@
+/* CustomDatePicker.css */
+/* Example styles for the selected range */
+
+.ant-picker-cell-in-range::before {
+    background-color: rgba(233, 117, 16, 0.2) !important;
+}
+
+.ant-picker-cell, .ant-picker-cell-range-start::before, .ant-picker-cell-range-end::before, .ant-picker-cell-in-range::before {
+    width: 60px !important;
+    height: 40px !important;
+}
+
+.ant-picker-cell-range-start::before {
+    inset-inline-start: 0;
+    background-color: rgba(51, 153, 255, 0.2) !important;
+    border-radius: 15px 0 0 15px;
+}
+
+.ant-picker-cell-range-end::before {
+    inset-inline-end: 0;
+    background-color: rgba(51, 153, 255, 0.2) !important;
+    border-radius: 0 15px 15px 0;
+}
+
+.cell-render-custom{
+    width: 50px !important;
+    margin: 0px;
+}
+
+.cell-date {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.cell-price {
+    font-size: 11px;
+}
+
+
+.ant-picker-panels {
+    width: 800px !important;
+}
+
+.ant-picker-body {
+    width: 400px !important;
+}
+
+.ant-picker-date-panel, .ant-picker-header {
+    width: 380px !important;
+}
+
+.ant-picker-content {
+    width: 380px !important;
+}

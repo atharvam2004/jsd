@@ -1,0 +1,73 @@
+
+.placesnearby{
+    text-align: center;
+    margin: 3% 8%;
+}
+.gold-box2 {
+    position: absolute;
+    z-index: 3;
+    padding: 2%;
+    background: #363433;
+    width: 60%;
+    left: 20rem;
+    bottom: -10em;
+    margin-bottom: 1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #debe64;
+  }
+  .wrapper2 {
+    position: relative;
+    margin: 0 12rem;
+  }
+  .dashed-box2 {
+    position: relative;
+    z-index: 1;
+    height: 30em;
+    width: 50%;
+    margin-bottom: 10em;
+    margin-top: 2em;
+  }
+  #luxImg2{
+    position: relative;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    object-fit: cover;
+    height: 100%;
+    
+  }
+  @media only screen and (max-device-width: 992px) {
+    .gold-box2 {
+        left: 0;
+        width: 100%;
+        top: 15rem;
+        padding: 5%;
+        bottom: -30em;
+    font-size: smaller;
+    }
+    .wrapper2 {
+        margin: 0 ;
+      }
+    #luxImg2{
+        left: 0;
+        position: relative;
+        top: 0;
+        width: 100%;
+        bottom: 0;
+        object-fit: cover;
+        height: 70%;
+        margin: 0;
+      }
+      .dashed-box2 {
+        position: relative;
+        z-index: 1;
+        left: 0;
+        height: 25em;
+        width: 100%;
+        margin-bottom: 10em;
+        margin-top: 2em;
+      }
+      .Carousel{
+        height: 50rem;
+      }
+  }

@@ -1,0 +1,186 @@
+#numChildren {
+  display: block;
+  position: relative;
+  margin-left: 1%;
+}
+#numChildren1 {
+  display: block;
+  position: relative;
+  width: 8rem;
+}
+#formwrapper {
+  display: inline-block;
+  padding: 1%;
+}
+#formwrapper2 {
+  display: inline-block;
+  padding: 1%;
+  width: 10rem;
+}
+.form {
+  background-color: #363433c4;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 100 !important;
+  top: 0;
+  height: 7rem;
+  padding: 5px;
+}
+.Res-input{
+  width: 80%;
+  margin-left: 2rem;
+}
+.formText {
+  color: #debe64;
+  text-align: center;
+  font-weight: 100 !important; 
+  font-size: 16px;
+  margin: 4px;
+}
+.forminputs {
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+}
+.rangepickerForm{
+  height: 2.8rem;
+  margin: 0 3%;
+}
+.formbtn {
+  padding: 0 15px ;
+  font-size: 14px;
+  font-weight: 600;
+  border: solid #5c4300 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #debe64;
+  color: #332421;
+  margin: 0 1px;
+}
+.formbt {
+ 
+
+  margin: 1% 1%;
+  display: flex;
+  flex-direction: row;
+  border-style: none;
+
+}
+.custom-dropdown-toggle
+{
+  background-color: #debe64 !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+  border-color: #debe64  !important;
+  height: 2.8rem;
+  flex-direction: row;
+}
+.form-elem {
+  display: flex;
+  margin-left:15rem;
+  justify-content: center;
+}
+.cardBody {
+  text-align: center;
+}
+.formbtn:hover {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #debe64; 
+  background-color: #debe6400;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: solid #debe64 1px;
+}
+.forminputs:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007aff;
+}
+.formbtns {
+  margin: 1% 1%;
+  display: flex;
+  flex-direction: row;
+  border-style: none;
+}
+@media only screen and (max-device-width: 992px) {
+  #numChildren1 {
+    display: block;
+    position: relative;
+    width: 8rem;
+    margin: 1%;
+  }
+  .form {
+    position: relative;
+    min-height: 10rem;
+  }
+
+  #formwrapper {
+    border: none;
+    margin: 1% 2% !important;
+  }
+  #formwrapper2 {
+    border: none;
+    margin: 1% 2% !important;
+  }
+  .form-elem {
+    display: block;
+    margin-left:1rem;
+
+  }
+  #btnsub {
+    clear: left !important;
+    display: inline-block;
+  }
+  .formbtns {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 2.8rem;
+  }
+
+  .custom-dropdown-toggle {
+    margin: 1% 7% !important;
+    max-height: 2rem!important;
+    padding: 0 15px  !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
+  }
+  .formbtn {
+    padding: 0 15px;
+    font-size: 10px;
+    font-weight: 600;
+    border: solid #5c4300 1px;
+    border-radius: 5px;
+    max-height: 2rem;
+    cursor: pointer;
+    background-color: #debe64;
+    color: #332421;
+    margin: 1% 1%;
+    border-style: none;
+  }
+  .formbt {
+    margin: 2%;
+    justify-content: center;
+
+  }
+
+  #numChildren {
+    display: block;
+    position: relative;
+    width: 8rem;
+    margin: 1%;
+  }
+  .rangepickerForm{
+    padding: 4px;
+    margin: 0 5%;
+    max-height: 2rem!important;
+  }
+  #formwrapper2 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.txt-ad {
+  color: #fff;
+  text-align: center;
+}

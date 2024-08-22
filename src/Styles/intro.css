@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.cardBody {
+  width: 30rem;
+}
+
+.colIntro {
+  display: flex;
+  justify-content: center;
+}
+
+.rowIntro {
+  width: 100%;
+}
+.rowIntro {
+  font-family: "Lora", serif;
+
+  display: flex;
+  text-align: center;
+}
+body {
+  font-family: "Lora", serif;
+}
+.introHead {
+  text-align: center;
+  margin: 5%;
+  margin-top: 5rem !important;
+  font-family: "Lora", serif;
+  color: rgb(134, 83, 0);
+}
+.cardContent {
+  padding: 3%;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.introHead {
+  text-align: center;
+  margin: 5%;
+  margin-top: 5rem !important;
+  font-family: "Playfair Display", serif;
+  color: #363433;
+}
+.cardContentTitle {
+  padding: 3%;
+  color: #debe64;
+  font-weight: 600;
+}
+
+.cardContentBody {
+  padding: 3%;
+  color: #363433;
+  font-weight: 500;
+}
+.cardBody {
+  max-width: 95%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.introdesc{
+    text-align: center;
+    margin: 5rem;
+}
+@media only screen and (max-device-width: 992px) {
+  .introdesc{
+    margin: 2rem;
+
+  }
+  .cardBody{
+    max-width: 75%;
+    line-height: 1.4; /* Adjust as needed for mobile devices */
+    font-size: 13px;
+  }
+}

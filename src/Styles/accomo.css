@@ -1,0 +1,185 @@
+#luxImg {
+  width: 100% !important;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+#slider-images2{
+  object-fit: cover;
+}
+.coro-col2{
+  margin: 3% 15%;
+  color: "#363433";
+  font-weight: 600;
+  /* style={{
+    margin: "3rem 10rem",
+    textAlign: "center",
+    color: "#363433",
+    padding: 0,
+    fontWeight: "600",
+  }} */
+}
+#luxImgss{
+  object-fit: cover!important;
+  top: 0;
+  height: 52rem;
+}
+#luxImg21 {
+  width: 100% !important;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+#luxImgss2{
+  object-fit: cover!important;
+  top: 0;
+  height: 75rem;
+}
+#luxDiv2 {
+  background-color: rgb(48, 32, 19);
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 5% 2%;
+  position: relative;
+  right: 0;
+  display: flex;
+  width: 50%;
+  height: 75rem;
+  font-family: 'Lora', serif;
+}
+.luxDiv {
+  background-color: #363433;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 5% 2%;
+  position: relative;
+  right: 0;
+  width: 50%;
+  height: 52rem;
+  font-family: 'Lora', serif;
+}
+@media only screen and (max-device-width: 992px) {
+  #slider-images2{
+    object-fit: cover;
+    max-height: 15em;
+  }
+  .luxDiv {
+    width: 100%!important;
+    background-color: rgb(29, 19, 10);
+    color: #debe64;
+    padding: 5% 4%;
+    height: fit-content!important;
+    font-family: 'Lora', serif;
+  }
+  #luxImgss{
+    object-fit: cover!important;
+    top: 0;
+    height: 20rem;
+  }
+  #luxImgss2{
+    object-fit: cover!important;
+    top: 0;
+    height: 20rem;
+  }
+  #luxImg22 {
+   display: none;
+  }
+  .luxhead{
+    font-size: 12px;
+    line-height: 1.4; /* Adjust as needed for mobile devices */
+    padding: 1%;
+  }
+  .pptheads{
+    font-size: 19px;
+  }
+  #luxImg {
+    width: 100% !important;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 50%!important;
+    
+  }
+  .parentLux2 {
+    width: 90%;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .parentLux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .luxDiv2 {
+    width: 70% !important;
+  }
+  .coro-col2{
+    margin: 3% 5%;
+  }
+}
+#ulLux {
+  display: flex;
+  flex-direction: row;
+}
+.parentLux {
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.buttonLux {
+  display: inline-block;
+  border: 2px solid #debe64;
+  padding: 5px 20px;
+  color: #debe64;
+  background-color: transparent;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 3px;
+  margin: 1%;
+}
+.buttonLux:hover {
+  background-color: #debe64;
+  color: #ffffff;
+}
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.parentlux {
+  align-items: stretch;
+}
+.parentLux2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.luxDiv2 {
+  width: 30%;
+  text-align: center;
+}
+#luxImg22 {
+  max-width: 40%;
+object-fit: cover;
+  margin: 3%;
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect for zoom */
+
+}
+
+#luxImg22:hover {
+  transform: scale(1.05); /* Zoom in on hover (adjust scale as desired) */
+}
+.added-mrgn {
+  margin-bottom: 3rem;
+}

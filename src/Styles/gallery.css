@@ -1,0 +1,13 @@
+.Galimg{
+  width: 100%!important;
+}
+#gallery{
+    display: flex;
+}
+.Galdiv{
+  margin-bottom: 5rem!important;
+}
+.Gallerywrapp{
+  margin: 1rem;
+  display: inline;
+}
